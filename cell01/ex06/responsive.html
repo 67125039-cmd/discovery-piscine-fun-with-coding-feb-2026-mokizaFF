@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Responsive Table</title>
+
+    <style>
+        table {
+            width: 100%;              /* ให้กินเต็มหน้ากว้าง */
+            height: 100vh;            /* ให้กินเต็มความสูงหน้าจอ */
+            border-collapse: collapse;
+            table-layout: fixed;      /* ให้อัตราส่วนคอลัมน์ปรับอัตโนมัติ */
+        }
+        td {
+            padding: 20px;
+            font-size: 24px;
+            text-align: center;
+            vertical-align: middle;
+        }
+        .left {
+            background-color: #b2c68f;   /* สีช่องซ้าย */
+            width: 50%;
+        }
+        .right {
+            background-color: #f1b2a2;   /* สีช่องขวา */
+            width: 50%;
+        }
+    </style>
+
+</head>
+<body>
+
+    <table>
+        <tr>
+            <td class="left">First cell</td>
+            <td class="right">Second cell</td>
+        </tr>
+    </table>
+
+</body>
+</html>
